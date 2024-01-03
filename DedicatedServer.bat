@@ -21,6 +21,14 @@ set LANMode=0
 
 
 ::///////////////////////////////////////////////////////////////////////
+::// Enable logging.                                                   //
+::///////////////////////////////////////////////////////////////////////
+
+
+set LogFile=1
+
+
+::///////////////////////////////////////////////////////////////////////
 ::// Below edits are optional unless you run multiable servers or mods.//
 ::///////////////////////////////////////////////////////////////////////
 :://               Load a mod on your server                           //
@@ -50,4 +58,4 @@ start /W alterware-launcher.exe --update
 :://DONE!! WARNING! Don't mess with anything below this line. SEROUSLY!//
 ::///////////////////////////////////////////////////////////////////////
 
-start iw4x.exe -dedicated +set fs_game "%ModFolderName%" +set sv_lanonly "%LANMode%" +set net_port "%GamePort%" +exec %ServerFilename% +set party_enable "0" +map_rotate
+start iw4x.exe -dedicated +set fs_game "%ModFolderName%" +set sv_lanonly "%LANMode%" +set net_port "%GamePort%" +exec %ServerFilename% +set logfile "%LogFile%" +set party_enable "0" +map_rotate
