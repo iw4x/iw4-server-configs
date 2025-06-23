@@ -23,7 +23,9 @@ ModFolderName=
 # (Optional)
 ServerFilename=serverlan.cfg
 
-# Remove this line if automatic updates on start should be disabled
-./alterware-launcher --update
+# Remove this if automatic updates on start should be disabled
+if [ -f iw4x-launcher ]; then
+    ./iw4x-launcher --update
+fi
 
 wine iw4x.exe -dedicated -stdout +set fs_game "$ModFolderName" +set sv_lanonly "$LANMode" +set net_port "$GamePort" +exec "$ServerFilename" +set logfile "$LogFile" +set party_enable "0" +map_rotate

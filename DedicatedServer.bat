@@ -52,7 +52,7 @@ set ModFolderName=
 set ServerFilename=server.cfg
 
 :: Remove this line if automatic updates on start should be disabled
-start /W alterware-launcher.exe --update
+if exist iw4x-launcher.exe start /W iw4x-launcher.exe --update
 
 ::///////////////////////////////////////////////////////////////////////
 :://DONE!! WARNING! Don't mess with anything below this line. SEROUSLY!//
