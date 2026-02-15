@@ -21,7 +21,7 @@ ModFolderName=
 # Your edited server.cfg in the "userraw" folder goes here...
 # This is where you edit your hostname, rcon, inactivity, etc
 # (Optional)
-ServerFilename=serverlan.cfg
+ServerFilename=server.cfg
 
 # Remove this if automatic updates on start should be disabled
 if [ -f iw4x-launcher ]; then

@@ -21,12 +21,12 @@ LogFile=1
 ModFolderName=
 
 # The name of your edited Playlist from the "userraw" folder goes here (optional)
-PlaylistFilename=partyserver.cfg
+PlaylistFilename=myplaylists.info
 
-# Your edited server.cfg in the "userraw" folder goes here...
+# Your edited partyserver.cfg in the "userraw" folder goes here...
 # This is where you edit your hostname, rcon, inactivity, etc
 # (Optional)
-ServerFilename=serverlan.cfg
+ServerFilename=partyserver.cfg
 
 # Remove this if automatic updates on start should be disabled
 if [ -f iw4x-launcher ]; then

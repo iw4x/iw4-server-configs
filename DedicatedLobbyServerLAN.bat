@@ -99,4 +99,4 @@ if exist iw4x-launcher.exe start /W iw4x-launcher.exe --update
 :://DONE!! WARNING! Don't mess with anything below this line. SEROUSLY!//
 ::///////////////////////////////////////////////////////////////////////
 
-start iw4x.exe -dedicated +set fs_game "%ModFolderName%" +set sv_lanonly "%LANMode%" +set net_port "%GamePort%" +exec %ServerFilename% +set logfile "%LogFile%" +set party_enable "1" +set playlistFilename "%PlaylistFilename%" +playlist "%playlistGameMode%"
+start iw4x.exe -dedicated +set fs_game "%ModFolderName%" +set sv_lanonly "%LANMode%" +set net_port "%GamePort%" +exec %ServerFilename% +set logfile "%LogFile%" +set party_enable "1" +set playlistFilename "%PlaylistFilename%" +playlist "%PlaylistGameMode%"
