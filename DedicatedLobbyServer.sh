@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # IW4x Lobby Server Configuration start-up file
 # For support visit us on discord https://discord.gg/2ETE8engZM
